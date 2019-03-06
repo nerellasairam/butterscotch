@@ -1,0 +1,20 @@
+
+
+1. try with resources or Automatic Resource Management -- introduced in Java 7 
+2. Multi Exception catch-blocks  -- introduced in java 7 
+3. final, finally, finalize
+4. checked vs unchecked
+
+
+Some of the best practices related to Java Exception Handling are:
+
+Use Specific Exceptions for ease of debugging.
+Throw Exceptions Early (Fail-Fast) in the program.
+Catch Exceptions late in the program, let the caller handle the exception.
+Use Java 7 ARM feature to make sure resources are closed or use finally block to close them properly.
+Always log exception messages for debugging purposes.
+Use multi-catch block for cleaner close.
+Use custom exceptions to throw single type of exception from your application API.
+Follow naming convention, always end with Exception.
+Document the Exceptions Thrown by a method using @throws in javadoc.
+Exceptions are costly, so throw it only when it makes sense. Else you can catch them and provide null or empty response.
